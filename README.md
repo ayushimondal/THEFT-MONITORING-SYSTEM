@@ -94,7 +94,7 @@ We welcome contributions! If you'd like to improve this project, please follow t
 
 This project was developed with the valuable contributions of:
 
-* [Ramndeep Kaur](https://github.com/raman2235/)
+* [Ramandeep Kaur](https://github.com/raman2235/)
 * **Kashish**
 
 ---
