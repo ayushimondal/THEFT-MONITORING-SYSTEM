@@ -1,104 +1,88 @@
-# Theft Monitoring System
+# Walmart Loss Prevention AI System
+
+![Project Header Image - e.g., a screenshot of your dashboard, or a relevant icon/logo]
+(./public/logo.png) ## Live Demo ✨
+
+Experience the Walmart Loss Prevention AI System in action:
+
+**[🚀 Launch Live Demo](https://theft-monitoring-system-k7kwjg1n2-ayushis-projects-181971b0.vercel.app/)**
 
 ---
 
-## Overview
+## Project Overview
 
-The **Theft Monitoring System** is a robust, AI-powered loss prevention application designed to help retail environments, specifically demonstrated for a Walmart scenario, minimize inventory shrinkage and enhance security. This system provides real-time surveillance, intelligent anomaly detection, and comprehensive analytics to identify and prevent potential theft incidents.
+The Walmart Loss Prevention AI System is a cutting-edge web application designed to enhance security and minimize inventory shrinkage in retail environments. Leveraging AI-powered real-time monitoring and predictive analytics, this system provides store management and security personnel with critical insights and alerts to prevent theft and optimize operational efficiency.
 
----
+This project was developed as part of a Hackathon, demonstrating the rapid prototyping and potential of AI in practical loss prevention scenarios.
 
 ## Features
 
-* **Live Camera Monitoring:** View real-time feeds from various camera locations within the store.
-* **AI-Powered Anomaly Detection:** Utilizes advanced AI models to detect suspicious behaviors and potential theft activities.
-* **Real-time Alerts:** Generates instant alerts for detected incidents with details on activity, location, and severity.
-* **Interactive Store Map:** Visualizes camera locations and their statuses on a simulated store layout, helping identify high-risk areas.
-* **Performance Metrics & ROI:** Tracks key statistics such as total prevented loss, active alerts, camera uptime, and AI accuracy rates, demonstrating the system's return on investment.
-* **Daily Savings Trend:** Provides a dynamic visualization of daily savings accrued through theft prevention efforts.
-* **Manual Incident Reporting:** Allows staff to manually report incidents, integrating them into the alert system.
-* **Custom Video Upload:** Users can upload their own MP4 video files to simulate live monitoring scenarios.
-
----
+* **Dashboard:** Real-time overview of prevented loss, active alerts, camera status, and AI accuracy.
+* **Live Monitoring:** View live camera feeds (simulated), observe AI detections, and receive instant theft alerts.
+* **AI Analysis:** See a breakdown of AI activities like person tracking, object detection, and anomaly detection.
+* **Security Alerts:** Comprehensive log of all generated alerts with details on activity, location, confidence, and severity.
+* **Incident Reporting:** Manual reporting feature for unforeseen events or suspicious activities.
+* **Interactive Store Map:** Visualize camera locations and risk levels within a simulated store layout.
+* **Predictive Analytics:** Insights into potential loss reduction and system efficiency trends.
+* **Responsive UI:** Built with React and Tailwind CSS for a modern and intuitive user experience.
 
 ## Technologies Used
 
-* **React.js:** A JavaScript library for building user interfaces.
-* **Lucide React:** A beautiful collection of open-source icons, used for various visual indicators.
-* **Modern CSS (Tailwind CSS principles):** For a clean, responsive, and intuitive user interface.
+* **Frontend:** React.js, Tailwind CSS, Lucide React (icons)
+* **Build Tool:** Vite
+* **Deployment:** Vercel
 
----
+## Getting Started (Local Development)
 
-## Installation and Setup
-
-To run this project locally, follow these steps:
+To run this project locally for development:
 
 1.  **Clone the repository:**
-
     ```bash
-    git clone [https://github.com/your-username/theft-monitoring-system.git](https://github.com/your-username/theft-monitoring-system.git)
+    git clone [https://github.com/ayushimondal/THEFT-MONITORING-SYSTEM.git](https://github.com/ayushimondal/THEFT-MONITORING-SYSTEM.git)
+    cd THEFT-MONITORING-SYSTEM
     ```
-
-2.  **Navigate to the project directory:**
-
-    ```bash
-    cd theft-monitoring-system
-    ```
-
-3.  **Install dependencies:**
-
+2.  **Install dependencies:**
     ```bash
     npm install
-    # or
-    yarn install
+    # or yarn install
     ```
-
-4.  **Start the development server:**
-
+3.  **Run the development server:**
     ```bash
-    npm start
-    # or
-    yarn start
+    npm run dev
+    # or yarn dev
     ```
+    The application will typically open in your browser at `http://localhost:5173` (or a similar port).
 
-    This will open the application in your browser at `http://localhost:3000`.
+## Deployment
 
----
+This application is deployed using **Vercel** for seamless continuous integration and delivery.
 
-## Usage
+* **Build Command:** `npm run build` (executed by Vercel)
+* **Output Directory:** `dist/` (or `build/` depending on your Vite config, Vercel usually auto-detects)
 
-Once the application is running, you can:
+The `npm run build` command generates the optimized static assets ready for production, which Vercel then serves globally.
 
-* **Navigate:** Use the sidebar to switch between **Dashboard**, **Live Monitoring**, and **Alerts** views.
-* **Start Monitoring:** In the "Live Monitoring" view, click "Start Monitoring" to activate the simulated camera feed and begin AI detection. You can upload your own MP4 video using the "Upload Video" button.
-* **View Alerts:** The "Alerts" section displays a list of active and resolved incidents.
-* **Report Incidents:** Use the "Report Incident" button in the "Live Monitoring" view to manually log suspicious activities.
-* **Explore Dashboard:** The "Dashboard" provides an overview of performance metrics, savings, and camera network status.
+## Future Enhancements
 
----
-
-## Contributing
-
-We welcome contributions! If you'd like to improve this project, please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature-name`).
-3.  Make your changes.
-4.  Commit your changes (`git commit -m 'Add new feature'`).
-5.  Push to the branch (`git push origin feature/your-feature-name`).
-6.  Open a Pull Request.
+* Integration with actual CCTV systems.
+* Advanced anomaly detection algorithms.
+* User authentication and role-based access control.
+* Historical data analysis and reporting.
+* Mobile application integration.
 
 ---
 
-## Collaborators
+## Our Team (Contributors)
 
-This project was developed with the valuable contributions of:
+This project was a collaborative effort by a dedicated team of individuals. Each member played a crucial role in bringing this Walmart Loss Prevention AI system to life during the Hackathon.
 
-* [Ramandeep Kaur](https://github.com/raman2235/)
-* **Kashish**
+* **Ayushi Mondal** ([GitHub Profile Link](https://github.com/ayushimondal))
+* **Ramandeep Kaur** ([GitHub Profile Link](https://github.com/raman2235/))
+* **Kashish** ([GitHub Profile Link])
+
 
 ---
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
