@@ -1,8 +1,5 @@
 # Walmart Loss Prevention AI System
 
-![Project Header Image - e.g., a screenshot of your dashboard, or a relevant icon/logo]
-(./public/logo.png) ## Live Demo ✨
-
 Experience the Walmart Loss Prevention AI System in action:
 
 **[🚀 Launch Live Demo](https://theft-monitoring-system-k7kwjg1n2-ayushis-projects-181971b0.vercel.app/)**
