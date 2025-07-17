@@ -76,9 +76,9 @@ The `npm run build` command generates the optimized static assets ready for prod
 
 This project was a collaborative effort by a dedicated team of individuals. Each member played a crucial role in bringing this Walmart Loss Prevention AI system to life during the Hackathon.
 
-* **Ayushi Mondal** ([GitHub Profile Link](https://github.com/ayushimondal))
-* **Ramandeep Kaur** ([GitHub Profile Link](https://github.com/raman2235/))
-* **Kashish** ([GitHub Profile Link])
+* **Ayushi Mondal** ((https://github.com/ayushimondal))
+* **Ramandeep Kaur** ((https://github.com/raman2235/))
+* **Kashish** (https://github.com/Kashish708)
 
 
 ---
